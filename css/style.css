@@ -1,0 +1,91 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Lora';
+}
+
+.logo{
+  font-size: 80px;
+}
+
+p{
+    margin: 0;
+}
+
+hr{
+  color: #fAFAFA;
+  height: 2px;
+}
+
+.fondo-portada{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../src/img/duotone.png);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    color: #fAfAfA;
+}
+
+.slogan{
+  font-size: 52px;
+}
+
+.sub{
+  font-size: 42px;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+.pie{
+  font-size: 24px;
+}
+
+.info{
+    text-align: center;
+}
+
+.tamano-img{
+    width: 45%;
+}
+
+.fondo-verde, .fondo-gris{height: 100%;}
+
+.fondo-verde{
+    background-color: #00294B;
+    color: #fAfAfA;
+}
+
+.fondo-gris{
+    background-color: #fAfAfA;
+    color: #00294B;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 100%;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+}
+
+.profile:hover {
+  transition: filter .1s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+.grey{
+  background-color: #00294B;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* para versiones anteriores de IE8 */
+}
+
+.paleta{
+#00294B
+#0072B2
+#00C3C2
+#B4002E
+#6C001E
+#BDBDBD
+}
